@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+padding: 0;
+}
+body{
+  background: rgb(248, 247, 246);
+  font-family: 'Roboto', sans-serif;
+}
+.layout{
+  display: flex;
+ flex-direction: column;
+  height: 100vh;
+
+ 
+
+}
+.navbar {
+  font-family: 'Ubuntu', sans-serif; ;
+  background-color: rgb(52, 113, 100);
+  display: flex;
+  align-items: center;
+  height: 4em;
+  position: sticky;
+  top: 0;
+ 
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  margin: 5px;
+  color: white;
+}
+.navbar ul li{
+  list-style: none;
+  color: white;
+  margin: 15px;
+}
+.Link {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li button a{
+  color: rgba(2,100,81,1);
+}
+
+#search{
+  padding: 5px 40px;
+  margin-left:375px;
+}
+.addContact,.signup,.Login {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  width: 30vw;
+  margin: auto;
+  margin-top:5em;
+  border-radius: 5px;
+}
+.signup a , .Login a{
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+ .signup p , .Login p{
+  color:rgba(2,100,81,1);
+  font-size: 1.3em;
+  margin: 10px;
+}
+#signup-btn{
+  margin: 15px;
+}
+ .addContact h2,.Login h2,.signup h2{
+  color: rgba(2,100,81,1);
+  font-size: 2em;
+  margin: 10px;
+}
+.addContact input,.Login input,.signup input{
+  padding: 5px 25px;
+  margin: 10px 5px;
+}
+.addContact a,.Login a,.signup a{
+ color:rgba(2,100,81,1);
+  text-decoration: none;
+  margin-top: 15px;
+
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5em;
+  background-color: rgba(2,100,81,1);
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  margin-top: auto;
+  
+}
+.Home,.Logout,.NotFound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 75vw;
+  margin: auto;
+  margin-top: 25px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.Home h1{
+  color: rgba(2,100,81,1);
+  font-size: 3em;
+  margin: 10px;
+}
+.Home p{
+  color: rgba(2,100,81,1);
+  font-size: 1.5em;
+  margin: 10px;
+}
+.Home a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.btn{
+  padding: 9px 5px;
+  width: 200px;
+  background-color: rgba(2,100,81,1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin: 10px;
+}
+.btn:hover{
+  background-color: rgb(52, 113, 100);
+}
+.contacts{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75vw;
+  margin: auto;
+  margin-top: 25px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.contact{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(2,100,81,1);
+  border-radius: 5px;
+  margin:0.4em;
+  width: 70vw;
+  height: 5em;
+
+}
+.contacts a{
+ color:rgba(2,100,81,1);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.contact-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 75vw;
+  margin: auto;
+  margin-top: 25px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.contact-detail h1{
+  color: rgba(2,100,81,1);
+  font-size: 2.5em;
+  margin: 10px;
+}
+.contact-detail p{
+  color: rgba(2,100,81,1);
+  font-size: 1.5em;
+  margin: 10px;
+}
+.contact-detail h3{
+  color: rgba(2,100,81,1);
+  font-size: 1.5em;
+  margin: 10px;
+}
